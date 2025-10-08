@@ -1,6 +1,25 @@
 <html>
   <head>
     <style>
+
+      @keyframes nome{
+        from{color: blue;}
+        to{color:black;}
+      }
+      div{animation-name:nome;
+            animation-duration:15s;}
+      .animado {
+        width: 120px;
+        height: 120px;
+        background-color: blue;
+        animation-name: myanimation;
+        animation-duration: 15s;
+        animation-interation-count: infinite;
+          @keyframes myanimation {
+            10% {background-color: orange;}
+            35% {background-color: blue;}
+            40% {background-color: pink;}
+            50% {background-color: yellow;}
       h1{
         color:red;
         font-size:40px;
